@@ -14,8 +14,8 @@
         <h1>Pöytäkirja</h1>
         <form id="pelaajienMaara" name="pelaajienMaara">
             <label for="maara">Kuinka monta pelaajaa (2-10):</label>
-            <input type="number" id="maara" name="maara">
-            <input onclick="tallennaMaara()" type="button" value="Submit">
+            <input type="number" id="maara" name="maara" min="2">
+            <input id="submit" onclick="tallennaMaara()" type="button" value="Aloita">
         </form>
         <div class="pelaajat">
             <div  class="pelaaja" id="pelaaja1">

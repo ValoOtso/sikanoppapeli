@@ -8,6 +8,19 @@ body{
     background-color: rgb(1, 180, 180);
 }
 
+#submit{
+    font-size: 1vw;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 20px;
+    background-color: pink;
+}
+
+#submit:hover{
+    cursor: pointer;
+    background-color: palevioletred;
+}
+
 #etusivulle{
     position: absolute;
     float: left;
