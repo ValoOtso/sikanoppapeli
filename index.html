@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sikanoppapeli</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h1>Sikanoppapeli</h1>
+    <div class="container">
+        <div class="container1">
+            <a href="yksinoppa.html">
+                <button onclick="piilotaPelaajat()" id="yksinoppa" >Yksi noppa</button>
+            </a>
+            <div id="yhdenNopanSaannot">
+                <br>
+                Säännöt — Sika yhdellä nopalla<br><br>
+                Pelaajia pitää olla vähintään kaksi.<br>
+                Lisäksi tarvitset yhden nopan.<br>
+                Pelin tarkoitus on kerätä sata pistettä tai enemmän 
+                (pistemäärän voi sopia ennen peliä) heittämällä noppaa tai noppia 
+                ja laskemalla heittojen summa yhteen. <br><br>
+                Pelaaja heittää omalla vuorollaan noppaa niin pitkään, kunnes <br><br>
+                a) heittää ykkösen <br><br>
+                b) päättää lopettaa heittämisen <br><br>
+                Jos pelaaja heittää ykkösen, hänen vuoronsa loppuu ja sen kierroksen heittojen summa nollataan. <br>
+                Vuoro siirtyy seuraavalle pelaajalle. <br>
+                Jos pelaaja päättää lopettaa heittämisen ennen kuin hän heittää ykkösen, 
+                heittojen summa lasketaan yhteen ja lisätään edellisen kierroksen summaan. <br>
+                Tämän jälkeen vuoro siirtyy seuraavalle pelaajalle.</div>
+        </div>
+        <div class="container2">
+            <a href="kaksinoppaa.html">
+                <button id="kaksinoppaa" >Kaksi noppaa</button>
+            </a>
+            <div id="kahdenNopanSaannot">
+                <br>
+                Säännöt — Sika kahdella nopalla<br><br>
+                Sikaa voit pelata kahdella nopalla, jolloin säännöt muuttuvat hieman: <br><br>
+                <ul>
+                    <li>Kun heität tuplat, saat tuplapisteet (esim. kaksi kolmosta on 12 pisteen arvoinen heitto)</li> <br><br>
+                    <li>Kun heität kaksi ykköstä, saat 25 pistettä</li> <br><br>
+                    <li>Kun heität vain toisella nopalla ykkösen, vuoro siirtyy seuraavalle pelaajalle etkä saa pisteitä</li> <br><br>
+                    <li>Kun heität kolme tuplaa peräkkäin, vuoro siirtyy seuraavalle pelaajalle etkä saa pisteitä</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

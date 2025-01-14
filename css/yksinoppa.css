@@ -1,0 +1,191 @@
+img{
+    width: 15%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 75%;
+    filter: hue-rotate(200deg);
+}
+
+body{
+    margin:0;
+    padding:0;
+    height:100vh;
+    display:flex;
+    color: rgb(203, 198, 192);
+    text-align: center;
+}
+
+#etusivulle{
+    position: absolute;
+    float: left;
+    font-size: 1vw;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 20px;
+    background-color: pink;
+}
+
+#etusivulle:hover{
+    cursor: pointer;
+    background-color: palevioletred;
+}
+
+.poytakirja{
+    background-color: rgb(43, 91, 249);
+    width: 50%;
+    height: 100%;
+}
+
+.nopat{
+    width: 50%;
+    height: 100%;
+}
+
+.pelaajat{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    margin-top: 2%;
+    align-items: center;
+}
+
+.pelaaja{
+    width: 90%;
+    height: 10%;
+    margin-top: 1%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#pelaaja1{
+    background-color: darkslategray;
+}
+
+#pelaaja2{
+    background-color: green;
+}
+
+#pelaaja3{
+    background-color: rebeccapurple;
+}
+
+#pelaaja4{
+    background-color: brown;
+}
+
+#pelaaja5{
+    background-color: darkblue;
+}
+
+#pelaaja6{
+    background-color: palevioletred;
+}
+
+#pelaaja7{
+    background-color: darkred;
+}
+
+#pelaaja8{
+    background-color: red;
+}
+
+#pelaaja9{
+    background-color: teal;
+}
+
+#pelaaja10{
+    background-color: darkviolet;
+}
+
+.nimimerkki{
+    font-size: 2vw;
+    color: rgb(203, 198, 192);
+    float: inline-start;
+    padding-left: 2%;
+}
+
+#noppa{
+    width: 40%;
+    font-size: 3.8vw;
+    padding: 5%;
+    background-color: rgb(14, 231, 231);
+    border-radius: 50px;
+    cursor: pointer;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 25%;
+    left: 75%;
+    border: 3px solid rgb(69, 109, 241);
+    color: rgb(43, 91, 249);
+}
+
+#aloita{
+    width: 40%;
+    font-size: 3.8vw;
+    padding: 5%;
+    background-color: rgb(231, 171, 216);
+    border-radius: 50px;
+    cursor: pointer;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 75%;
+    border: 3px solid rgb(69, 109, 241);
+    color: rgb(43, 91, 249);
+}
+
+#noppa:hover, #aloita:hover{
+    font-size: 4vw;
+    width: 42%;
+}
+
+#noppa:active, #aloita:active{
+    font-size: 3.6vw;
+    width: 38%;
+}
+
+#lopetaVuoro{
+    width: 20%;
+    font-size: 1.5vw;
+    padding: 2%;
+    background-color: rgb(231, 141, 14);
+    border-radius: 50px;
+    cursor: pointer;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 75%;
+    border: 3px solid rgb(69, 109, 241);
+    color: rgb(43, 91, 249);
+}
+
+#lopetaVuoro:hover{
+    font-size: 1.7vw;
+    width: 22%;
+}
+
+#lopetaVuoro:active{
+    font-size: 1.3vw;
+    width: 18%;
+}
+
+#vuoroNumero{
+    font-size: 2vw;
+}
+
+#vuoronPisteet{
+    font-size: 2vw;
+}
+
+.pisteet{
+    font-size: 2vw;
+}
+
+#voittaja{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    font-size: 4vw;
+}

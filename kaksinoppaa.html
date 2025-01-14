@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/kaksinoppaa.css">
+</head>
+<body>
+    <a href="index.html">
+        <button id="etusivulle" >Etusivulle</button>
+    </a>
+    <div id="poytakirja" class="poytakirja">
+        <h1>Pöytäkirja</h1>
+        <form id="pelaajienMaara" name="pelaajienMaara">
+            <label for="maara">Kuinka monta pelaajaa (2-10):</label>
+            <input type="number" id="maara" name="maara">
+            <input onclick="tallennaMaara()" type="button" value="Submit">
+        </form>
+        <div class="pelaajat">
+            <div  class="pelaaja" id="pelaaja1">
+                <div id="nimimerkki1" class="nimimerkki" contenteditable="true" >Pelaaja 1</div>
+                <div id="pisteet1" class="pisteet"></div>
+            </div>
+            <div  class="pelaaja" id="pelaaja2">
+                <div id="nimimerkki2" class="nimimerkki" contenteditable="true" >Pelaaja 2</div>
+                <div id="pisteet2" class="pisteet"></div>
+            </div>
+            <div  class="pelaaja" id="pelaaja3">
+                <div id="nimimerkki3" class="nimimerkki" contenteditable="true" >Pelaaja 3</div>
+                <div id="pisteet3" class="pisteet"></div>
+            </div>
+            <div  class="pelaaja" id="pelaaja4">
+                <div id="nimimerkki4" class="nimimerkki" contenteditable="true" >Pelaaja 4</div>
+                <div id="pisteet4" class="pisteet"></div>
+            </div>
+            <div  class="pelaaja" id="pelaaja5">
+                <div id="nimimerkki5" class="nimimerkki" contenteditable="true" >Pelaaja 5</div>
+                <div id="pisteet5" class="pisteet"></div>
+            </div>  
+            <div  class="pelaaja" id="pelaaja6">
+                <div id="nimimerkki6" class="nimimerkki" contenteditable="true" >Pelaaja 6</div>
+                <div id="pisteet6" class="pisteet"></div>
+            </div>
+            <div  class="pelaaja" id="pelaaja7">
+                <div id="nimimerkki7" class="nimimerkki" contenteditable="true" >Pelaaja 7</div>
+                <div id="pisteet7" class="pisteet"></div>
+            </div>
+            <div  class="pelaaja" id="pelaaja8">
+                <div id="nimimerkki8" class="nimimerkki" contenteditable="true" >Pelaaja 8</div>
+                <div id="pisteet8" class="pisteet"></div>
+            </div>
+            <div  class="pelaaja" id="pelaaja9">
+                <div id="nimimerkki9" class="nimimerkki" contenteditable="true" >Pelaaja 9</div>
+                <div id="pisteet9" class="pisteet"></div>
+            </div>
+            <div  class="pelaaja" id="pelaaja10">
+                <div id="nimimerkki10" class="nimimerkki" contenteditable="true" >Pelaaja 10</div>
+                <div id="pisteet10" class="pisteet"></div>
+            </div>
+        </div>
+    </div>
+    <div id="nopat" class="nopat">
+        <button id="aloita" onclick="aloita();taustavari()">Aloita</button>
+        <button id="noppa" onclick="heitaNoppa1();heitaNoppa2();rolling();vuoro()">Heitä noppa</button>
+        <div id="vuoroNumero"></div>
+        <div id="vuoronPisteet">Pisteet tällä hetkellä:</div>
+        <button id="lopetaVuoro" onclick="lopetaVuoro()">Lopeta vuoro</button>
+        <div id="voittaja"></div>
+        <img id="noppa1" />
+        <img id="noppa2" />
+    </div>
+    <script src="script2.js"></script>
+</body>
+</html>
