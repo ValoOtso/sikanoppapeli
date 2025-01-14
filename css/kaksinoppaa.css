@@ -5,7 +5,6 @@ body{
     display:flex;
     color: rgb(203, 198, 192);
     text-align: center;
-    background-color: rgb(1, 180, 180);
 }
 
 #submit{
